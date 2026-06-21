@@ -40,6 +40,3 @@ INSERT INTO properties (title, city, price) VALUES
 
 -- Insert a default demo user and an attacker account (password for both is 'password')
 INSERT INTO users (fullname, username, email, password, balance) VALUES 
-('Test User1', 'user1', 'user1@example.com', '123', 50000.00),
-('Test User2', 'user2', 'user2@example.com', '123', 50000.00),
-('Attacker Account', 'attacker', 'attacker@example.com', '123', 0.00);
